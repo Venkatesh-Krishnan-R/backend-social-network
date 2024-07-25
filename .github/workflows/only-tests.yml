@@ -1,9 +1,6 @@
 name: only-tests
 on: 
-  push:
-    branches-ignore:
-      - main
-      - master
+  workflow_dispatch:
 
 jobs:
   run-all-tests:
